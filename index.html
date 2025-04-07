@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Advanced HTML5 Page</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>My Top Priorities</h2>
+    <ol type="I">
+      <li>Learn HTML5</li>
+      <li>Build Projects</li>
+      <li>Practice Forms</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Beautiful View</h2>
+    <img src="https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg" alt="Nature View" width="600">
+  </section>
+
+  <!-- Table of 5 Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fredrick Owuor</td>
+          <td>Nairobi, Kenya</td>
+          <td>+254700111222</td>
+          <td>fredrick@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Stephen Okeno</td>
+          <td>Kisii, Kenya</td>
+          <td>+254781333444</td>
+          <td>okeno@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Bethuel Muchina</td>
+          <td>Meru, Kenya</td>
+          <td>+254742565666</td>
+          <td>muchina@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Grace Wanjiru</td>
+          <td>Nakuru, Kenya</td>
+          <td>+254733777888</td>
+          <td>grace@example.com</td>
+        </tr>
+        <tr>
+          <td>Laban Kipkoech</td>
+          <td>Eldoret, Kenya</td>
+          <td>+254744999000</td>
+          <td>laban@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Register Here</h2>
+    <form action="#" method="post">
+      <!-- Name Field -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter a password" minlength="6" required><br><br>
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Gender Radio Buttons -->
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Interests Checkboxes -->
+      <label>Interests:</label><br>
+      <input type="checkbox" id="coding" name="interests" value="Coding">
+      <label for="coding">Coding</label>
+      <input type="checkbox" id="design" name="interests" value="Design">
+      <label for="design">Design</label><br><br>
+
+      <!-- Country Dropdown -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Select Country--</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+      </select><br><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact us at info@example.com | &copy; 2025</p>
+  </footer>
+
+</body>
+</html>
